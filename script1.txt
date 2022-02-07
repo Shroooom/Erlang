@@ -1,0 +1,7 @@
+d ds@localhost
+f ds@localhost fs1@localhost
+f ds@localhost fs2@localhost
+sleep 1
+c ds@localhost 'b.txt'
+g ds@localhost 'b.txt'
+q ds@localhost

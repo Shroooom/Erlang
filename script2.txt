@@ -1,0 +1,15 @@
+d ds@localhost
+f ds@localhost fs1@localhost
+f ds@localhost fs2@localhost
+sleep 1
+c ds@localhost 'b.txt'
+c ds@localhost 'a.txt'
+g ds@localhost 'b.txt'
+f ds@localhost fs3@localhost
+f ds@localhost fs4@localhost
+f ds@localhost fs5@localhost
+sleep 1
+c ds@localhost 'bee_short.txt'
+g ds@localhost 'bee_short.txt'
+g ds@localhost 'a.txt'
+q ds@localhost
